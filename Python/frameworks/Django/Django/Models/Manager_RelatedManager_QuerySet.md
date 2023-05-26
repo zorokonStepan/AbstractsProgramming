@@ -1,0 +1,1 @@
+классами Manager, RelatedManager И QuerySet.
