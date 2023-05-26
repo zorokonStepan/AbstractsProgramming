@@ -1,6 +1,9 @@
 Ресурсы:
 https://habr.com/ru/company/ruvds/blog/599929/#17
 
+### настроить GIT для обхода: LF will be replaced by CRLF the next time Git touches it
+git config --global core.safecrlf false 
+
 ### **Создать новый репозиторий из командной строки**
 
 https://habr.com/ru/company/ruvds/blog/599929/#17
@@ -25,7 +28,3 @@ https://translated.turbopages.org/proxy_u/en-ru.ru.5ee50c35-645cba6b-3715bf30-
 74722d776562/https/stackoverflow.com/questions/5741407/how-to-undo-a-git-merge-with-conflicts
 git merge --abort
 ```
-
-### настроить GIT для обхода: LF will be replaced by CRLF the next time Git touches it
-git config --global core.safecrlf false 
-
