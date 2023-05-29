@@ -1,6 +1,8 @@
 ### Форматирование значений
 `{местозаполнитель:спецификатор формата}`
 
+\* [{value:.2f}  Округление чисел с плавающей точкой](https://github.com/zorokonStepan/AbstractsProgramming/blob/main/Python/base/LanguageStructure/2_DataTypes/1_str/f-string.md#{value:.2f}  Округление чисел с плавающей точкой)
+
 ### {value:.2f}  Округление чисел с плавающей точкой
 ```
     Округление чисел с плавающей точкой
