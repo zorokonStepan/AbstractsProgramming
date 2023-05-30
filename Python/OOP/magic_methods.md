@@ -1,6 +1,6 @@
 https://tproger.ru/articles/gajd-po-magicheskim-metodam-v-python/
 
-# Создание и удаление объектов
+# 1. Создание и удаление объектов
 
 ### __new__(cls[, ...]) — метод создания типа класса.
 ```
@@ -31,7 +31,7 @@ https://tproger.ru/articles/gajd-po-magicheskim-metodam-v-python/
     когда пользователя необходимо предупредить о незакрытых дескрипторах.
 ```
 
-# Общие свойства объектов
+# 2. Общие свойства объектов
 
 ###  __repr__(self) — информационная строка об объекте.
 ```
@@ -51,7 +51,7 @@ https://tproger.ru/articles/gajd-po-magicheskim-metodam-v-python/
     использованием строковых литералов.(https://docs.python.org/3/library/string.html#formatspec)
 ```
 
-# Методы сравнения объектов между собой
+# 3. Методы сравнения объектов между собой
 
 ### __lt__(self, other)
 ```определяет поведение оператора сравнения «меньше», <.```
@@ -86,4 +86,4 @@ https://tproger.ru/articles/gajd-po-magicheskim-metodam-v-python/
     Используется, в основном, в условиях if    
 ```
 
-# Доступ к атрибутам объекта
+# 4. Доступ к атрибутам объекта
