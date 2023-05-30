@@ -59,7 +59,7 @@ https://tproger.ru/articles/gajd-po-magicheskim-metodam-v-python/
 ### __le__(self, other)
 ```определяет поведение оператора сравнения «меньше или равно», <=.```
 
-### __eq__(self, other) — 
+### __eq__(self, other) 
 ```определяет поведение оператора «равенства», ==.```
 
 ### __ne__(self, other)
@@ -91,7 +91,7 @@ https://tproger.ru/articles/gajd-po-magicheskim-metodam-v-python/
 ### __getattr__(self, name) 
 ```вызывается методом getattr(...) или при обращении к атрибуту объекта через x.y, где x — объект, а y — атрибут.```
 
-### '__setattr__'(self, name, value)
+### __ setattr __(self, name, value)
 ```
     вызывается методом setattr(...)или при обращении к атрибуту объекта с последующим определением 
     значения переданного атрибута. Например: x.y = 1, где x — объект, y — атрибут, а 1 — значение атрибута.
