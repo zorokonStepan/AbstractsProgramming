@@ -6,22 +6,21 @@
         def func(*, value=value): прием, чтоб использовать только именованные параметры
 ```
 
+#### lambda
 ```
     lambda params: result
 ```
 
-```
-    Closure    
-    
+#### Closure
+```    
     def main_func(name):
         def inner_func():
             return f'Hello my friend, {name}'
         return inner_func
 ```
 
+#### Generator Function
 ```
-    Generator Function
-    
     def my_range(first=0, last=10, step=1):
         number = first
         
@@ -30,9 +29,8 @@
             number += step
 ```
 
+#### Decorator
 ```
-    Decorator
-    
     def decortor1(func):
         def wrapper(*args, **kwargs):
             print(1)
