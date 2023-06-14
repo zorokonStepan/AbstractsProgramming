@@ -25,10 +25,23 @@ https://tproger.ru/articles/gajd-po-magicheskim-metodam-v-python/
         pass
 ```
 
+### super()
+```
+    class Child(Parent):
+    def __init__(self, last_name, first_name):
+        super().__init__(last_name)
+        self.first_name = first_name
+```
+
 ### __ del __(self) — деструктор класса. 
 ```
     Вызывается автоматически сборщиком мусора, практически никогда не используется, за исключением, 
     когда пользователя необходимо предупредить о незакрытых дескрипторах.
+```
+
+### атрибут __mro__ или метод .mro()
+```
+    возвращает список классов родителей
 ```
 
 # 2. Общие свойства объектов
