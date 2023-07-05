@@ -9,6 +9,8 @@ https://routerus.com/how-to-remove-docker-images-containers-volumes-and-networks
     docker tag    - присвоить тег образу 
     docker rm     - удалить контейнер(ы)
     docker rmi    - удалить образ(ы)
+    docker pull   - скачать образ с DockerHub
+    docker exec   - выполнить команды внутри контейнера
 ```
 
 ```
