@@ -97,6 +97,8 @@ https://routerus.com/how-to-remove-docker-images-containers-volumes-and-networks
 ```
     docker build . -t my-image
     docker build -t my-image pathDockerfile
+    docker run --rm my-image
+    docker run -t -i my-image /bin/bash
     
     docker run --rm --name web -p 8080:8080 web-hello
     docker run --rm --name web -p 8080:8080 -v name_volume:/user/src/app/folder web-hello
