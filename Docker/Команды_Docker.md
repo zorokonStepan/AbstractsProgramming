@@ -42,8 +42,7 @@ https://routerus.com/how-to-remove-docker-images-containers-volumes-and-networks
 ### работа с volumes Docker
 ```
     docker volume ls         - выводит список всех volume docker
-    docker volume create имя - создать docker volume
-    
+    docker volume create имя - создать docker volume    
 ```
 
 ### docker commands
