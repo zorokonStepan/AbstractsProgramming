@@ -94,8 +94,9 @@ https://routerus.com/how-to-remove-docker-images-containers-volumes-and-networks
 ```
 
 ```
-    docker build . -t my-image
+    docker build pathDockerfile -t my-image
     docker build -t my-image pathDockerfile
+    
     docker run --rm my-image
     docker run -t -i my-image /bin/bash
     

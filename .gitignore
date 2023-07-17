@@ -44,6 +44,4 @@ venv.bak/
 .pyre/
 .idea
 
-# docker
-docker-compose.yml
 

@@ -1,0 +1,7 @@
+services:
+  selected_logs:
+    image:   selected_logs
+    restart: "no"
+    volumes:
+        - ./input_params.py:/src/input_params.py:ro
+    command: "python3 ./src/main.py"
