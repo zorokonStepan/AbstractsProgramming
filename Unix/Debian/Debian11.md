@@ -1,23 +1,46 @@
 ### Установка OS
 ```
-    download image:
+    ===============================================================================================================
+    - download image:
     https://cdimage.debian.org/cdimage/archive/11.7.0/amd64/iso-cd/
     
-    installing:
+    - installing:
     https://www.youtube.com/watch?v=QtnqV5ut9Ao&list=LL&index=1
     
-    задать быстрый доступ к терминалу:
+    - задать быстрый доступ к терминалу:
     https://g-soft.info/articles/3223/chetyre-sposoba-otkryt-terminal-v-debian/
-    
-    установить гостевые дополнения:
+        
+        gnome-terminal
+   
+    ===============================================================================================================
+    - установить гостевые дополнения:
     https://infoit.com.ua/linux/kak-ustanovit-virtualbox-guest-additions-na-debian-11-debian-10/
     
-    Debian 11, 12 - настройка после установки:
-    https://dzen.ru/a/YwiCaenDbjRkMQuW?utm_referer=yandex.ru
+        sudo adduser stepan sudo
+        sudo apt update
+        sudo apt install build-essential dkms linux-headers-$(uname -r)
+        sudo mkdir -p /mnt/guestadditions
+        sudo mount /dev/cdrom /mnt/guestadditions
+        cd /mnt/guestadditions
+        sudo sh ./VBoxLinuxAdditions.run --nox11
+        sudo shutdown -r now
+        lsmod | grep vboxguest
     
-    Получить доступ к общей папке:
+    Вывод:  vboxguest             413696  7
+    ===============================================================================================================
+    
+    ===============================================================================================================    
+    - Debian 11, 12 - настройка после установки:
+    https://dzen.ru/a/YwiCaenDbjRkMQuW?utm_referer=yandex.ru
+    ===============================================================================================================
+    
+    ===============================================================================================================
+    - Получить доступ к общей папке:
     https://qa.yodo.im/t/kak-poluchit-dostup-k-obshhej-papke-v-virtualbox/684/2
-    sudo adduser your_username vboxsf
+    
+        sudo adduser your_username vboxsf
+        
+    ===============================================================================================================
 ```
 
 ### PyCharm
@@ -25,23 +48,23 @@
     https://wiki.debian.org/JetBrains
     https://infoit.com.ua/linux/kak-ustanovit-pycharm-na-debian-11/
     
-    sudo apt update
-    sudo apt upgrade
-    sudo apt install snapd
-    sudo snap install pycharm-community --classic
+        sudo apt update
+        sudo apt upgrade
+        sudo apt install snapd
+        sudo snap install pycharm-community --classic
     
     - Run pycharm
-    snap run pycharm-community
+        snap run pycharm-community
 ```
 
 ### Git
 ```
     https://setiwik.ru/kak-ustanovit-git-v-debian-11/
     
-    git config --global user.email "dev1@instrument-fit.ru"
-    git config --global user.name "skolodkin"
-    git config --list
-    cat ~/.gitconfig
+        git config --global user.email "dev1@instrument-fit.ru"
+        git config --global user.name "skolodkin"
+        git config --list
+        cat ~/.gitconfig
     
     
     git config --global user.name "ваше имя"
@@ -62,4 +85,12 @@
     
     проверка соединения
     ssh -T git.techzone.spb.ru
+```
+
+### SSH Виктор Шумский
+```
+    
+    
+    
+    
 ```
