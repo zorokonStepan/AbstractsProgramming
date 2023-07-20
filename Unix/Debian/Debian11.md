@@ -61,22 +61,51 @@
 ```
     https://setiwik.ru/kak-ustanovit-git-v-debian-11/
     
+        sudo apt update
+        sudo apt install git
+        git --version    
+    
         git config --global user.email "dev1@instrument-fit.ru"
         git config --global user.name "skolodkin"
         git config --list
         cat ~/.gitconfig
     
-    
-    git config --global user.name "ваше имя"
-    git config --global user.email email@example.com
+[user]
+	email = dev1@instrument-fit.ru
+	name = skolodkin
+[core]
+	autocrlf = input
+	
 ```
 
 ### SSH
 ```
-    chmod 0600 id_rsa
-    ls -la
+установить ssh сервер: https://losst.pro/nastrojka-ssh-v-debian
 
-    установить ssh сервер: https://losst.pro/nastrojka-ssh-v-debian
+=====================================================================================================================
+
+    в каталоге .ssh д.б. файлы:
+         
+    1. config
+
+Host *
+  HostKeyAlgorithms +ssh-rsa
+  PubkeyAcceptedKeyTypes +ssh-rsa
+  
+    2. id_rsa
+    
+    закрытый ключ. д.б. права 0600  
+    
+    chmod 0600 id_rsa
+    
+    ls -la
+    
+    3. id_rsa.pub
+
+    4. known_hosts
+    
+    
+=====================================================================================================================    
     
     eval "$(ssh-agent)"
     ssh-add ~/.ssh/id_rsa
