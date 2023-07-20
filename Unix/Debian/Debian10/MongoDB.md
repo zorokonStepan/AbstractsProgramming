@@ -43,4 +43,6 @@
     
     перезагружаем приложение
     sudo systemctl restart mongodb  
+    
+    sudo systemctl status mongodb  
 ```
