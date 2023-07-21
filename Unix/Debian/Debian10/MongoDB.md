@@ -1,4 +1,4 @@
-### установка 
+### установка Mongo Monolith
 ```
     https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-debian/
     
@@ -33,16 +33,31 @@
         )
         
     - настройка конфигурации сервера БД
-    sudo vim /etc/mongodb.conf
+    nano /etc/mongod.conf
     
-    bind_ip= внешний ip adress server 
-    port= указать порт
+    port: указать порт
+    bindIp: внешний ip adress server 
     
     отключаем ананимную авторизацию на нашем сервере:
     #noauth=false -> noauth=false 
     
     перезагружаем приложение
-    sudo systemctl restart mongodb  
+    sudo systemctl restart mongod
     
-    sudo systemctl status mongodb  
+    sudo systemctl status mongod  
+```
+
+### установка Mongo Docker
+```
+    https://cpab.ru/kak-zapustit-mongodb-v-kontejnere-docker-cloudsavvy-it/
+
+    docker pull mongodb/mongodb-community-server
+    
+    docker run -d -p 38000:27017 --name chat-mongo -v chat-mongo-data:/data/db -e MONGODB_INITDB_ROOT_USERNAME="example-user" -e MONGODB_INITDB_ROOT_PASSWORD="example-pass" mongodb/mongodb-community-server:latest
+    
+    # docker run -d -p 38000:27017 --name chat-mongo -v chat-mongo-data:/data/db -v /etc/chatmongo.conf:/etc/mongod.conf mongodb/mongodb-community-server:latest --config /etc/mongod.conf
+    
+    docker container ls
+    
+    docker exec -it chat-mongo
 ```
