@@ -49,7 +49,7 @@ https://losst.pro/ustanovka-postgresql-v-debian-10
     su - postgres
     psql
     CREATE DATABASE test_chat;
-    CREATE USER stepan PASSWORD ‘новый_пароль’;
+    CREATE USER stepan PASSWORD 'новый_пароль';
 ```
 
 ### Чтобы подключиться к test_db от имени пользователя test_user, выполните:
@@ -57,7 +57,7 @@ https://losst.pro/ustanovka-postgresql-v-debian-10
     psql -d test_chat -U stepan
 ```
 
-# настроить удаленное подключение к PostgreSQL
+### настроить удаленное подключение к PostgreSQL
 https://www.dmosk.ru/miniinstruktions.php?mini=pgsql-remote
 
 ```
@@ -79,7 +79,11 @@ https://www.dmosk.ru/miniinstruktions.php?mini=pgsql-remote
     # systemctl restart postgresql  
 ```
 
-
+### PSQL in Docker
+```
+    docker run --name chat-postgresql -p 9777:5432 -v /root/psql-test-chat/data:/var/lib/postgresql/data -e POSTGRES_USER="stepan" -e POSTGRES_PASSWORD="987&654" -e POSTGRES_DB="test_chat" -d postgres:11.2
+    docker exec -it chat-postgresql bash    
+```
 
 
 
