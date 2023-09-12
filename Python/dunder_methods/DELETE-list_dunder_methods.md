@@ -1,19 +1,9 @@
-3: __aenter__
-4: __aexit__
-5: __aiter__
-7: __anext__
-8: __await__
-11: __call__
 13: __class__
 14: __class_getitem__
-15: __cmp__
 16: __coerce__
 21: __delete__
 23: __delslice__
 24: __dict__
-26: __div__
-28: __enter__
-30: __exit__
 35: __fspath__
 37: __get__
 39: __getattribute__
@@ -27,8 +17,6 @@
 71: __long__
 75: __metaclass__
 78: __mro__
-83: __next__
-84: __nonzero__
 85: __oct__
 89: __prepare__
 92: __rcmp__
@@ -42,5 +30,4 @@
 118: __slots__
 121: __subclasscheck__
 122: __subclasses__
-125: __unicode__
 126: __weakref__
