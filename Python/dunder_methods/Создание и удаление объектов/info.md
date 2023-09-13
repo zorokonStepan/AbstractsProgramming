@@ -11,4 +11,13 @@
     __del__(self) — деструктор класса. 
                     Вызывается автоматически сборщиком мусора, практически никогда не используется, за исключением, 
                     когда пользователя необходимо предупредить о незакрытых дескрипторах.
+                    
+                    class Example:     
+                        # Initializing
+                        def __init__(self): 
+                            print("Example Instance.")
+                      
+                        # Calling destructor
+                        def __del__(self): 
+                            print("Destructor called, Example deleted.") 
 ```
