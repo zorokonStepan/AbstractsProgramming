@@ -3,3 +3,5 @@ https://tproger.ru/articles/gajd-po-magicheskim-metodam-v-python/
 https://blog.finxter.com/python-dunder-methods-cheat-sheet/
 
 https://proproprogs.ru/python
+
+https://habr.com/ru/articles/186608/
