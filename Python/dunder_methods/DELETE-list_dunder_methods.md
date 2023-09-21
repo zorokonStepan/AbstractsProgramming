@@ -1,6 +1,5 @@
 13: __class__
 14: __class_getitem__
-16: __coerce__
 23: __delslice__
 24: __dict__
 35: __fspath__
@@ -8,7 +7,6 @@
 42: __getslice__
 48: __idiv__
 53: __import__
-58: __instancecheck__
 70: __length_hint__
 75: __metaclass__
 78: __mro__
@@ -20,6 +18,5 @@
 116: __setslice__
 117: __sizeof__
 118: __slots__
-121: __subclasscheck__
 122: __subclasses__
 126: __weakref__
