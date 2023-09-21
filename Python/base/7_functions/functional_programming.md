@@ -7,6 +7,16 @@
     
     for i, j, k in zip(a, b, c):
         ...
-        
-        
+```
+
+```
+    map()
+```
+
+```
+    reduce()
+```
+
+```
+    filter()
 ```
