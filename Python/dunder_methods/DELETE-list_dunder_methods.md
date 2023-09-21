@@ -1,9 +1,7 @@
 13: __class__
 14: __class_getitem__
 24: __dict__
-35: __fspath__
 53: __import__
-70: __length_hint__
 75: __metaclass__
 78: __mro__
 89: __prepare__
