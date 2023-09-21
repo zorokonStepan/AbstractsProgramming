@@ -1,16 +1,12 @@
 13: __class__
 14: __class_getitem__
-23: __delslice__
 24: __dict__
 35: __fspath__
-42: __getslice__
 53: __import__
 70: __length_hint__
 75: __metaclass__
 78: __mro__
 89: __prepare__
-92: __rcmp__
-116: __setslice__
 118: __slots__
 122: __subclasses__
 126: __weakref__

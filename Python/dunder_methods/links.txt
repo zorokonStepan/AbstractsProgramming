@@ -5,3 +5,5 @@ https://blog.finxter.com/python-dunder-methods-cheat-sheet/
 https://proproprogs.ru/python
 
 https://habr.com/ru/articles/186608/
+
+https://pythonz.net/references/named/object.__delslice__/
