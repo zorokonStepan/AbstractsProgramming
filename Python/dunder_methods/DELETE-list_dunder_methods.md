@@ -3,7 +3,6 @@
 23: __delslice__
 24: __dict__
 35: __fspath__
-41: __getnewargs__
 42: __getslice__
 53: __import__
 70: __length_hint__
@@ -11,8 +10,6 @@
 78: __mro__
 89: __prepare__
 92: __rcmp__
-95: __reduce__
-96: __reduce_ex__
 116: __setslice__
 118: __slots__
 122: __subclasses__
