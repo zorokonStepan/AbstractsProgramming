@@ -3,7 +3,6 @@
 24: __dict__
 53: __import__
 75: __metaclass__
-78: __mro__
 89: __prepare__
 118: __slots__
 122: __subclasses__
