@@ -14,14 +14,14 @@ def df_sin(x):
 
 
 # var1
-DF_sin = Derivate(df_sin)
-print(DF_sin(math.pi / 4))
+df_sin = Derivate(df_sin)
+print(df_sin(math.pi / 4))
 
 
 # var2
 @Derivate
-def DF_sin_2(x):
+def df_sin_2(x):
     return math.sin(x)
 
 
-print(DF_sin_2(math.pi / 4))
+print(df_sin_2(math.pi / 4))
