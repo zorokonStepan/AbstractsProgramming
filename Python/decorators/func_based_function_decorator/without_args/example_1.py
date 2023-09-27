@@ -1,17 +1,18 @@
 def simple_decorator(func):
     """внешняя функция с аргументом"""
 
-    def inner():
+    def inner(*args, **kwargs):
         """внутренняя функция — модификатор аргумента func"""
         print('Начало работы декоратора...')
-        func()
+        func(*args, **kwargs)
         print('Декоратор отработал!')
 
     return inner  # возвращение внутренней функции как объекта
 
 
-def print_hi():
+def print_hi(*args):
     print(f'Это функция, которую задекорировали')
+    print(*args)
 
 
 print_hi()  # вызов недекорированной функции
@@ -22,3 +23,5 @@ print('---------------------')
 print_hi = simple_decorator(print_hi)
 # ... и выполняется
 print_hi()
+
+print_hi('1', '2', '3')
