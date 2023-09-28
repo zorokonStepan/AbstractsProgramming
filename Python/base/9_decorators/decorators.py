@@ -1,24 +1,24 @@
 def decorator1(func):
     def wrap(*args, **kwargs):
-        print('decorator1')
-        print(args[0] * 2)
-        return func(*args, **kwargs)
+        print('start decorator1')
+        func(*args, **kwargs)
+        print('stop decorator1')
     return wrap
 
 
 def decorator2(func):
     def wrap(*args, **kwargs):
-        print('decorator2')
-        print(args[0] * 3)
-        return func(*args, **kwargs)
+        print('start decorator2')
+        func(*args, **kwargs)
+        print('stop decorator2')
     return wrap
 
 
 def decorator3(func):
     def wrap(*args, **kwargs):
-        print('decorator3')
-        print(args[0] * 4)
-        return func(*args, **kwargs)
+        print('start decorator3')
+        func(*args, **kwargs)
+        print('stop decorator3')
     return wrap
 
 
