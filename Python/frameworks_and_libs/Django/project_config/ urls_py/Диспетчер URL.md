@@ -1,4 +1,4 @@
-##### https://django.fun/ru/docs/django/4.2/topics/http/urls/
+https://django.fun/ru/docs/django/4.2/topics/http/urls/
 
 ### ROOT_URLCONF
 ```

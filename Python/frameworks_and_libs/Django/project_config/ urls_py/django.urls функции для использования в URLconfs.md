@@ -1,3 +1,5 @@
+https://django.fun/ru/docs/django/4.2/ref/urls/#django.urls.path
+
 ### path(route, view, kwargs=None, name=None)
 ```
     1. Аргумент route должен быть строкой или gettext_lazy(), содержащей шаблон URL. 
