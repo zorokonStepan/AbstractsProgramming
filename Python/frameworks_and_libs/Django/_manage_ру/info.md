@@ -8,6 +8,7 @@
     4. manage.py sqlmigrate app number - посмотреть на SQL-код, создаваемый миграцией 
     5. manage.py migrate - выполнить миграцию
     6. manage.py shell - запуск консоли Django
+    7. manage.py test - запуск модульных тестов
 ```
    
 ### manage.ру runserver
