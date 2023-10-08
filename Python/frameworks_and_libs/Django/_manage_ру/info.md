@@ -9,6 +9,7 @@
     5. manage.py migrate - выполнить миграцию
     6. manage.py shell - запуск консоли Django
     7. manage.py test - запуск модульных тестов
+    8. manage.ру createsuperuser
 ```
    
 ### manage.ру runserver
