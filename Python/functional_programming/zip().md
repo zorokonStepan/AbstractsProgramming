@@ -22,15 +22,3 @@
 ```
    {k: v for (k, v) in zip(keys, vals)}
 ```
-
-```
-    map()
-```
-
-```
-    reduce()
-```
-
-```
-    filter()
-```
