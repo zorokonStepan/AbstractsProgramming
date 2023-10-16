@@ -1,11 +1,5 @@
 ```
-    zip(), map(), reduce(), filter()
+    zip(), map(), reduce(), filter(), enumerate()
     
-    lambda
-    
-    clousure
-    
-    recursion
-    
-    decorators
+    lambda, clousure, decorators, recursion
 ```
