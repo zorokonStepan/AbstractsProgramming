@@ -1,0 +1,4 @@
+http://www.sql-tutorial.ru/ru/book_about.html
+https://sql-academy.org/ru/trainer
+https://pgexercises.com/questions/basic/selectall.html
+https://www.asozykin.ru/courses/sql
