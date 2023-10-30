@@ -231,18 +231,23 @@
         return cls.__instance
 ```
 
+### 11. Срезы
+```
+    1. object.__setslice__(self, start, end, seq) - Позволяет задать поведение при попытке назначить срез для объекта-контейнера. Устарело в в Python 3.0
+    2. object.__getslice__(self, start, end) - Позволяет задать поведение при попытке получить срез объекта-контейнера. Устарело в в Python 3.0
+    3. object.__delslice__(self, start, end) - Позволяет задать поведение при попытке удалить срез из объекта-контейнера. Устарело в в Python 3.0
+```
+
 9: __bool__
 13: __class__
 14: __class_getitem__
 15: __cmp__
-23: __delslice__
 24: __dict__
 26: __div__
 29: __eq__
 35: __fspath__
 36: __ge__
 41: __getnewargs__
-42: __getslice__
 43: __gt__
 53: __import__
 58: __instancecheck__
@@ -255,7 +260,6 @@
 92: __rcmp__
 95: __reduce__
 96: __reduce_ex__
-116: __setslice__
 118: __slots__
 121: __subclasscheck__
 122: __subclasses__
