@@ -1,0 +1,6 @@
+https://python-school.ru/courses/fastapi/
+https://fastapi.tiangolo.com/ru/tutorial/
+https://metanit.com/python/fastapi/1.1.php
+
+
+

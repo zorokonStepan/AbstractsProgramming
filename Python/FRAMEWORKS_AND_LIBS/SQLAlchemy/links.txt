@@ -1,0 +1,7 @@
+https://pythonru.com/biblioteki/crud-sqlalchemy-core
+https://lectureswww.readthedocs.io/6.www.sync/2.codding/9.databases/2.sqlalchemy/2.sql_expressions.html#insert
+https://apipython.ru/crud-operaczii-s-sqlalchemy-core-podrobnoe-rukovodstvo-dlya-novichkov/
+https://apipython.ru/sqlalchemy-polnoe-rukovodstvo-dlya-nachinayushhih-i-prodvinutyh/
+https://metanit.com/python/fastapi/2.2.php
+https://el1sha-git.github.io/sqlalchemy-rusdocs/
+https://ploshadka.net/sqlalchemy-primery-zaprosov-orm/#h2-2
