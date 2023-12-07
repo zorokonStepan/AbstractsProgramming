@@ -14,6 +14,6 @@
 | Г. Персиваль, Б. Грегори |    Паттерны разработки на Python TDD, DDD и событийно-ориентированная архитектура     |    2022     |                                          |
 |     Robert C. Martin     |                                      Clean Agile                                      |    2020     |                                          |
 |      А. Л. Марченко      |                             Python БОЛЬШАЯ КНИГА ПРИМЕРОВ                             |    2023     |              dunder methods              |
-|       Мэттью Уилкс       |                         Профессиональная разработка на Python                         |    2021     | pytest, flake8, mypy, SQLAlchemy, typing |
+
 
 
