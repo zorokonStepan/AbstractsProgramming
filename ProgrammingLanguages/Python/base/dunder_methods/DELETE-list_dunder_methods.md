@@ -4,6 +4,5 @@
 53: __import__
 75: __metaclass__
 89: __prepare__
-118: __slots__
 122: __subclasses__
 126: __weakref__
