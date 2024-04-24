@@ -1,0 +1,3 @@
+https://pytest-docs-ru.readthedocs.io/ru/latest/getting-started.html
+
+https://testsetup.ru/pytest/#intro
