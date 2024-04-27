@@ -2,7 +2,11 @@
     -v или --verbose: подробный вывод информации
         pytest -v 
         
+    -vv: еще более подробный вывод информации        
+        
     --tb=no: turn off tracebacks    
+    
+    --tb=short: короткий трэйсбэк
     
     --last-failed: перезапуск только упавших тестов
         python -m pytest --last-failed tests/test_prod.py
