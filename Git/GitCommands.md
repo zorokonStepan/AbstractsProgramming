@@ -1,10 +1,3 @@
-## настроить GIT для обхода: LF will be replaced by CRLF the next time Git touches it
-```    
-    https://habr.com/ru/articles/703072/
-    
-    git config --global core.autocrlf true 
-```
-
 ## Обновить код на локальной машине из удаленного репозитория
 https://techrocks.ru/2021/04/09/how-to-use-git-part-3/#updating-our-local
 ```
