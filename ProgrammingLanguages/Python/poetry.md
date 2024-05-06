@@ -36,6 +36,12 @@
     poetry add --group dev: в [tool.poetry.group.dev.dependencies]
 ```
 
+### Удаление пакетов
+```
+    poetry remove pendulum
+    poetry remove mkdocs --group docs
+```
+
 ### Commands from poetry shell
 ```
     poetry run python --version
