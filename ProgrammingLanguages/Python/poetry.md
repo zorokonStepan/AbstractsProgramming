@@ -33,13 +33,21 @@
 ```
     poetry add : в [tool.poetry.dependencies]
     
-    poetry add --group dev: в [tool.poetry.group.dev.dependencies]
+    poetry add --group dev: в [tool.poetry.group.dev.dependencies]    
+    poetry add --dev: в [tool.poetry.group.dev.dependencies]
+    poetry add -D: в [tool.poetry.group.dev.dependencies]
+    
 ```
 
 ### Удаление пакетов
 ```
     poetry remove pendulum
     poetry remove mkdocs --group docs
+```
+
+### Активация виртуального окружения
+```
+    poetry shell
 ```
 
 ### Commands from poetry shell
