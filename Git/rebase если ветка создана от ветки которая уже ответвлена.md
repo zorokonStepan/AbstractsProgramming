@@ -10,6 +10,10 @@
 
 ## Эльнар
 ```
+    git pull 
+    
+    Нужно актуализировать ветку на которую будет перебазироваться ветка
+    
     https://selectel.ru/blog/tutorials/how-to-rebase-commits-and-branches/
     
     откатиться:
